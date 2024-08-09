@@ -1,4 +1,4 @@
-# ____MERN____
+# ___MERN___
 
 Install:
  1. Node.js
