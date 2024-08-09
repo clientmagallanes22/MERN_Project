@@ -1,9 +1,12 @@
 # **MERN SETUP**
 
 ## I. Installation
-install the following programs
+Install the following programs
 1. Node.js
-2. Visual Studio Code
+2. Git
+3. Web Browser
+4. Visual Studio Code
+
 Install ff extensions:
 * Thunder Client
 * Auto Rename Tag
