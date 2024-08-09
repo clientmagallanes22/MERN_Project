@@ -1,7 +1,7 @@
 # **MERN SETUP**
 
 ## I. Installation
-Install the following programs
+Install the following programs:
 * Node.js
 * Git
 * Web Browser
@@ -30,7 +30,9 @@ npm install mongoose
 npm install cors
 ```
 open packages.json and add:
+
 `"type": "module",`
+
 inside the 'scripts' replace with:
 ```javascript
 "start": "node server.js",
