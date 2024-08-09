@@ -1,14 +1,14 @@
-###	== MERN ==
-#
-#	Install:
-#		Node.js
-#		Visual Studio Code
-#			Install ff extensions:
-#				Thunder Client
-#				Auto Rename Tag
-#				ES7+ React/Reduxe/React-Native snippets
-#				Prettier
-#				Tailwind CSS InterlliSense
+# == MERN ==
+
+## Install:
+### Node.js
+### Visual Studio Code
+			Install ff extensions:
+				Thunder Client
+				Auto Rename Tag
+				ES7+ React/Reduxe/React-Native snippets
+				Prettier
+				Tailwind CSS InterlliSense
 #
 #	For backend
 #		Open terminal and navigate to your project directory
