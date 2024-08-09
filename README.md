@@ -1,8 +1,8 @@
 # == MERN ==
 
 ## Install:
-### Node.js
-### Visual Studio Code
+### 1. Node.js
+### 2. Visual Studio Code
 			Install ff extensions:
 				Thunder Client
 				Auto Rename Tag
