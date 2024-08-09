@@ -2,17 +2,17 @@
 
 ## I. Installation
 Install the following programs
-1. Node.js
-2. Git
-3. Web Browser
-4. Visual Studio Code
+* Node.js
+* Git
+* Web Browser
+* Visual Studio Code
 
     Install ff extensions:
-    1. Thunder Client
-    2. Auto Rename Tag
-    3. ES7+ React/Reduxe/React-Native snippets
-    4. Prettier
-    5. Tailwind CSS InterlliSense
+    - Thunder Client
+    - Auto Rename Tag
+    - ES7+ React/Reduxe/React-Native snippets
+    - Prettier
+    - Tailwind CSS InterlliSense
 
 ## For backend
  * Open terminal and navigate to your project directory, and run the ff commands:
