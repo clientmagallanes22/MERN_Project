@@ -2,8 +2,8 @@
 
 ## Installation
 ### 1. Node.js
- 2. Visual Studio Code
- 3. Install ff extensions:
+### 2. Visual Studio Code
+### 3. Install ff extensions:
   * Thunder Client
   * Auto Rename Tag
   * ES7+ React/Reduxe/React-Native snippets
