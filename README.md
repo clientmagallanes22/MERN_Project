@@ -2,10 +2,10 @@
 
 ## I. Installation
 Install the following programs:
-* Node.js
-* Git
-* Web Browser
-* Visual Studio Code
+  * Node.js
+  * Git
+  * Web Browser
+  * Visual Studio Code
 
     Install ff extensions:
     * Thunder Client
