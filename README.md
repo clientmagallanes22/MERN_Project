@@ -1,9 +1,9 @@
 # **MERN SETUP**
 
 1. Install:
- 1. Node.js
- 2. Visual Studio Code
- 3. Install ff extensions:
+ * Node.js
+ * Visual Studio Code
+ * Install ff extensions:
    1. Thunder Client
    2. Auto Rename Tag
    3. ES7+ React/Reduxe/React-Native snippets
