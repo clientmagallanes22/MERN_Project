@@ -12,25 +12,22 @@
 
 ## For backend
  * Open terminal and navigate to your project directory, and run the ff commands:
-
-mkdir backend
-cd backend
-mkdir config
-mkdir controllers
-mkdir models
-mkdir routes
-npm init -y
-npm install express
-npm install nodemon
-npm install mongoose
-npm install cors
+`mkdir backend`
+`cd backend`
+`mkdir config`
+`mkdir controllers`
+`mkdir models`
+`mkdir routes`
+`npm init -y`
+`npm install express`
+`npm install nodemon`
+`npm install mongoose`
+`npm install cors`
 
  * open packages.json
-
   1.add "type": "module",
  
  * inside the 'scripts' replace with:
-
 "start": "node server.js",
 "dev": "nodemon server.js"
 
