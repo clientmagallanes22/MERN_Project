@@ -1,4 +1,4 @@
-# **MERN SETUP**
+# **MERN Setup and Development**
 
 ## I. Installation
 Install the following programs:
