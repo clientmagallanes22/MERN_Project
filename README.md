@@ -14,8 +14,8 @@ Install the following programs
     - Prettier
     - Tailwind CSS InterlliSense
 
-## For backend
- * Open terminal and navigate to your project directory, and run the ff commands:
+## II. For backend
+Open terminal and navigate to your project directory, and run the ff commands:
 ```sh
 mkdir backend
 cd backend
@@ -29,13 +29,13 @@ npm install nodemon
 npm install mongoose
 npm install cors
 ```
-
- * open packages.json
-  1.add "type": "module",
- 
- * inside the 'scripts' replace with:
+open packages.json and add:
+`"type": "module",`
+inside the 'scripts' replace with:
+```javascript
 "start": "node server.js",
 "dev": "nodemon server.js"
+```
 
-## For frontend
- * Follow this [Video](https://www.youtube.com/watch?v=VAaUy_Moivw&t=597s&ab_channel=React%26NextjsProjectswithSahand)
+## III. For frontend
+Follow this [Video](https://www.youtube.com/watch?v=VAaUy_Moivw&t=597s&ab_channel=React%26NextjsProjectswithSahand)
