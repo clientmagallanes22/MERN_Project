@@ -12,6 +12,7 @@
 
 ## For backend
  * Open terminal and navigate to your project directory, and run the ff commands:
+```sh
 `mkdir backend`
 `cd backend`
 `mkdir config`
