@@ -1,14 +1,14 @@
 # **MERN SETUP**
 
 ## Installation
- * Node.js
- * Visual Studio Code
- * Install ff extensions:
-   1. Thunder Client
-   2. Auto Rename Tag
-   3. ES7+ React/Reduxe/React-Native snippets
-   4. Prettier
-   5. Tailwind CSS InterlliSense
+ 1. Node.js
+ 2. Visual Studio Code
+ 3. Install ff extensions:
+  * Thunder Client
+  * Auto Rename Tag
+  * ES7+ React/Reduxe/React-Native snippets
+  * Prettier
+  * Tailwind CSS InterlliSense
 
 ## For backend
  * Open terminal and navigate to your project directory, and run the ff commands:
