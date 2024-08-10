@@ -9,44 +9,40 @@ import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
  
 function NavList() {
   return (
-    <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="my-2 flex flex-col gap-2 lg:my-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center p-3 rounded-md hover:bg-gray-600 hover:text-white">
           Pages
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center p-3 rounded-md hover:bg-gray-600 hover:text-white">
           Account
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center p-3 rounded-md hover:bg-gray-600 hover:text-white">
           Blocks
         </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+        <a href="#" className="flex items-center p-3 rounded-md hover:bg-gray-600 hover:text-white">
           Docs
         </a>
       </Typography>
@@ -69,13 +65,13 @@ export default function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-6 py-3 text-black">
-      <div className="flex items-center justify-between text-blue-gray-900">
+    <Navbar className="mx-auto bg-black text-white">
+      <div className="flex items-center justify-between">
+        {/* change typo to link */}
         <Typography
           as="a"
           href="#"
           variant="h6"
-          className="mr-4 cursor-pointer py-1.5"
         >
           Material Tailwind
         </Typography>
@@ -84,14 +80,14 @@ export default function NavbarSimple() {
         </div>
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto p-5 text-inherit lg:hidden hover:bg-gray-600"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <HiOutlineX className="h-6 w-6" strokeWidth={2} />
+            <HiOutlineX className="h-6 w-6" />
           ) : (
-            <HiOutlineMenu className="h-6 w-6" strokeWidth={2} />
+            <HiOutlineMenu className="h-6 w-6" />
           )}
         </IconButton>
       </div>
