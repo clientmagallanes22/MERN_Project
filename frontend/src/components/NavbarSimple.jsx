@@ -9,11 +9,10 @@ import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
  
 function NavList() {
   return (
-    <ul className="my-2 flex flex-col gap-2 lg:my-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="flex flex-col lg:my-0 lg:flex-row lg:items-center lg:gap-1">
       <Typography
         as="li"
-        variant="small"
-        className="p-1 font-medium"
+        className="font-medium"
       >
         <a href="#" className="flex items-center p-3 rounded-md hover:bg-gray-600 hover:text-white">
           Pages
@@ -21,8 +20,7 @@ function NavList() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        className="p-1 font-medium"
+        className="font-medium"
       >
         <a href="#" className="flex items-center p-3 rounded-md hover:bg-gray-600 hover:text-white">
           Account
@@ -30,8 +28,7 @@ function NavList() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        className="p-1 font-medium"
+        className="font-medium"
       >
         <a href="#" className="flex items-center p-3 rounded-md hover:bg-gray-600 hover:text-white">
           Blocks
@@ -39,8 +36,7 @@ function NavList() {
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        className="p-1 font-medium"
+        className="font-medium"
       >
         <a href="#" className="flex items-center p-3 rounded-md hover:bg-gray-600 hover:text-white">
           Docs
